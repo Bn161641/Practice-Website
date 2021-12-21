@@ -1,0 +1,148 @@
+<!-- short cuts
+        ! enter
+        html:5 enter-->
+
+<!-- <i></i> vs <em></em>
+       <b></b> vs <strong></strong> -->
+
+<!-- LISTS 
+        ul = unordered list 
+        li = list item list
+        ol = ordered list
+        dl = discription list-->
+
+<!-- IMAGES
+        <img src="..." alt="...">
+        src = source of image
+        alt = alternative incase picture cant be shown
+        self-closing tag -->
+
+<!--HYPERLINK
+        <a ref="..."></a>-->
+
+<!--TABLE
+        use to format text
+        thead = table head
+                th = table head
+        tbody = table body
+                tr = table row
+                        td = table dataset
+        tfoot = table foot-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bryan's Personal Site</title>
+  </head>
+
+  <body>
+    <!--Picture, Name, Summary*****************************************************************-->
+    <table cellspacing="20">
+      <td><img src="BryanNguyen.png" alt="this is a picture of me" /></td>
+      <td>
+        <h1>Bryan Nguyen</h1>
+        <p>
+          <em
+            >3rd year Computer Science Student at
+            <a href="https://www.utdallas.edu/"
+              >The Universitys of Texas at Dallas</a
+            ></em
+          >
+        </p>
+        <p>I am 21 and I am studying to become a better Software Developer.</p>
+      </td>
+    </table>
+    <hr />
+
+    <!--Education*****************************************************************-->
+    <h3>Educations</h3>
+    <ul>
+      <li>River Trails Elementary</li>
+      <li>Hurst Junionr High Middle School</li>
+      <li>LD Bell Highschool</li>
+      <li>The University of Texas at Dallas</li>
+    </ul>
+    <hr />
+
+    <!--Work Experience*****************************************************************-->
+    <h3>Work Experience</h3>
+    <table cellspacing="10">
+      <thead>
+        <th>Dates</th>
+        <th>Position</th>
+        <th>Company</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2022</td>
+          <td>Technology Intern</td>
+          <td>State Farm</td>
+        </tr>
+        <tr>
+          <td>2020-2021</td>
+          <td>Lead Server</td>
+          <td>King Pho Sushi Bar</td>
+        </tr>
+        <tr>
+          <td>2019-2020</td>
+          <td>Retail Cashier</td>
+          <td>Michael Kors</td>
+        </tr>
+        <tr>
+          <td>2018-2019</td>
+          <td>Team Leader</td>
+          <td>Jack in the Box</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <hr />
+
+    <!--Skilss*****************************************************************-->
+    <h3>Skills</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Java</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>App Developement</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Web Development</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>MySQL</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!--Hobbies and Contact info Hyperlink*****************************************************************-->
+    <hr />
+    <a href="hobbies.html">My Hobbies</a>
+    <a href="contactMe.html">My Contacts</a>
+  </body>
+</html>
